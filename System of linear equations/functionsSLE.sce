@@ -1,6 +1,6 @@
 //Department of Chemical Engineering, Universidad Tecnológica Nacional - Facultad Regional Rosario, Argentina
 //Course: Matemática Superior Aplicada
-//Scilab functions for System of linear equation
+//Scilab functions for System of linear equations
 
 function [D,e]=simple_gaussian(A,b)
 //Simple Gaussian elimination

@@ -3,7 +3,7 @@
 //Scilab functions for System of linear equations
 
 function [D,e]=simple_gaussian(A,b)
-//Simple Gaussian elimination
+//Simple Gaussian elimination v.2024
     [f c]=size(A);
     C=[A,b];
     for i=1:f-1
@@ -21,7 +21,7 @@ function [C, P]=pivoteototal(C, i, P)
 // Departamento de Ingeniería Química - Matemática Superior Aplicada
 // Alumno: Mignacco Mateo Leg: 51736  mateomignacco32@gmail.com
 //-------------------------------------------------------------
-//Función: Pivoteo total
+//Función: Pivoteo total v.2024
 //-------------------------------------------------------------    
 [f c]=size(C);
 [big p]=max(abs(C([i:f],[i:f])));
@@ -47,7 +47,7 @@ function C=pivoteoparcial(C, i)
 // Departamento de Ingeniería Química - Matemática Superior Aplicada
 // Alumno: Mignacco Mateo Leg: 51736  mateomignacco32@gmail.com
 //-------------------------------------------------------------
-//Función: Pivoteo parcial
+//Función: Pivoteo parcial v.2024
 //-------------------------------------------------------------    
 [f c]=size(C);
 [big p] = max(abs(C([i:f],i)));
@@ -63,7 +63,7 @@ function [D, e]=gaussianaPP(A, b)
 // Departamento de Ingeniería Química - Matemática Superior Aplicada
 // Alumno: Mignacco Mateo Leg: 51736  mateomignacco32@gmail.com
 //-------------------------------------------------------------
-//Función: Eliminacion gaussiana con pivoteo parcial
+//Función: Eliminacion gaussiana con pivoteo parcial v.2024
 //-------------------------------------------------------------
 [f c]=size(A);
 C=[A,b];
@@ -83,7 +83,7 @@ function [D, e, P]=gaussianaPT(A, b)
 // Departamento de Ingeniería Química - Matemática Superior Aplicada
 // Alumno: Mignacco Mateo Leg: 51736  mateomignacco32@gmail.com
 //-------------------------------------------------------------
-//Función: Eliminacion gaussiana con pivoteo total
+//Función: Eliminacion gaussiana con pivoteo total v.2024
 //-------------------------------------------------------------
 [f c]=size(A);
 C=[A,b];

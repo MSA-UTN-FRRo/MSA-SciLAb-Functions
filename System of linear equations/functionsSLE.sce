@@ -104,7 +104,7 @@ function x = SD(A,b)
     // Departamento de Ingeniería Química - Matemática Superior Aplicada
     // Alumno: Liang Martina  Leg: 53728
     //-------------------------------------------------------------
-    //Función: Sustitución hacia adelante v.2026
+    //Función: Sustitución hacia delante v.2026
     //-------------------------------------------------------------
     [n c] = size(A)
     x(1,1) = b(1)/A(1,1)

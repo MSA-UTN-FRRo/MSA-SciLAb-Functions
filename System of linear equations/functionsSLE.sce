@@ -61,7 +61,7 @@ endfunction
 function [D, e]=gaussianaPP(A, b)
 // Universidad Tecnológica Nacional-Facultad Regional Rosario
 // Departamento de Ingeniería Química - Matemática Superior Aplicada
-// Alumno: Mignacco Mateo Leg: 51736  mateomignacco32@gmail.com
+// Alumno: Mignacco Mateo Leg: 51736
 //-------------------------------------------------------------
 //Función: Eliminacion gaussiana con pivoteo parcial v.2024
 //-------------------------------------------------------------
